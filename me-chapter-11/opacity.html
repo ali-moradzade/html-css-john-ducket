@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Opacity</title>
+		<style type="text/css">
+			div {
+				width: 100px;
+				height: 100px;
+				margin: 40px;
+				display: inline-block;
+				background-color: #922d2d;
+			}
+			p {
+				width: 100px;
+				height: 100px;
+				position: relative;
+				top: 20px;
+				left: 20px;
+				margin: 20px;
+			}
+			p.one {
+				background-color: black;
+				opacity: 0.5;
+			}
+			p.two {
+				background-color: black;
+				background-color: rgba(0, 0, 0, 0.5);
+
+			}
+		</style>
+	</head>
+	<body>
+		<div><p class="one"></p></div>
+		<div><p class="two"></p></div>
+	</body>
+</html>
