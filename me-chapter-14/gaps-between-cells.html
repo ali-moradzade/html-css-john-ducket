@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Gaps Between Cells</title>
+		<style type="text/css">
+			table {
+				border: 1px solid blue;
+			}
+			td {
+				border: 1px solid black;
+				padding: 15px;
+			}
+			table.one {
+				border-spacing: 15px 15px;
+			}
+			table.two {
+				border-collapse: collapse;
+			}
+		</style>
+	</head>
+	<body>
+		<table class="one">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+		</table>
+		<table class="two">
+			<tr>
+				<td>1</td>
+				<td>2</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+		</table>
+	</body>
+</html>
