@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fixed Width Layout</title>
+	</head>
+	<style type="text/css">
+		* {
+			font-family: Arial, Verdana, sans-serif;
+			color: #665544;
+			text-align: center;}
+		body {
+			width: 960px;
+			margin: 0 auto;
+		}
+		/*=============================================
+		=                   Header                    =
+		=============================================*/
+		#header {
+
+		}
+		#nav, #feature {
+			background-color: lightgray;
+			padding: 10px;
+			margin: 10px;
+		}
+		li {
+			display: inline;
+			text-transform: uppercase;
+			margin: 10px;
+		}
+		a {
+			text-decoration: none;
+		}
+		a:hover {
+			color: red;
+		}
+		/*=============================================
+		=                   Content                   =
+		=============================================*/
+		#content {
+			overflow: auto;
+			height: 100%;
+		}
+		#article-column1, #article-column2, #article-column3 {
+			background-color: lightgray;
+			float: left;
+			width: 300px;
+			margin: 10px;
+		}
+		
+		/*=============================================
+		=                   Footer                    =
+		=============================================*/
+		#footer {
+			background-color: lightgray;
+			padding: 10px;
+			margin: 10px;
+		}
+	</style>
+	<body>
+		<div id="header">
+			<h1>Logo</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<p>Feature</p>
+			</div>
+			<div id="article-column1">
+				<p>Column Two</p>
+			</div>		
+			<div id="article-column2">
+				<p>Column Three</p>
+			</div>
+			<div id="article-column3">
+				<p>Column One</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2011</p>
+		</div>
+	</body>
+</html>

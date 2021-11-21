@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Liquid Layout</title>
+		<style type="text/css">
+			* {
+				font-family: Arial, Helvetica, sans-serif;
+				text-align: center;
+			}
+			body {
+				width: 90%;
+				margin: 0 auto;
+			}
+			/*=============================================
+			=            header                           =
+			=============================================*/
+			#header {
+
+			}
+			#nav {
+				background-color: lightgray;
+				padding: 0.75em;
+				margin-top: 1%;
+				margin-bottom: 1%;
+			}
+			li {
+				display: inline;
+				margin-right: 0.75em;
+				text-transform: uppercase;
+			}
+			a {
+				text-decoration: none;
+			}
+			a:hover {
+				color: red;
+			}
+
+			/*=============================================
+			=            content                          =
+			=============================================*/
+			#content {
+				overflow: auto;
+			}
+			#feature {
+				background-color: lightgray;
+				padding: 1%;
+				margin-top: 1%;
+				margin-bottom: 1%;
+				height: 10em;
+			}
+			#article-column1, #article-column2, #article-column3 {
+				float: left;
+				margin: 1% 1% 1% 0%;
+				width: 32.6%;
+				background-color: lightgray;
+				height: 10em;
+			}
+			#article-column3 {
+				margin-right: 0%;
+			}
+			/*=============================================
+			=            footer                           =
+			=============================================*/
+			#footer {
+				background-color: lightgray;
+				padding: 0.5em;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="header">
+			<h1>Logo</h1>
+			<div id="nav">
+				<ul>
+					<li><a href="">Home</a></li>
+					<li><a href="">Products</a></li>
+					<li><a href="">Services</a></li>
+					<li><a href="">About</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content">
+			<div id="feature">
+				<p>Feature</p>
+			</div>
+			<div id="article-column1">
+				<p>Column One</p>
+			</div>
+			<div id="article-column2">
+				<p>Column Two</p>
+			</div>
+			<div id="article-column3">
+				<p>Column Three</p>
+			</div>
+		</div>
+		<div id="footer">
+			<p>&copy; Copyright 2011</p>
+		</div>
+	</body>
+</html>
