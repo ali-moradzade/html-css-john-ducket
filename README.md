@@ -18,18 +18,22 @@ You should be able to double click on this file to open it in your browser. If t
 you can clone the project, remove all my files:
 
 ```bash
-cd src/me/
-chmod 755 script.sh
-./script.sh
+$ cd src/me/
+
+# this script clears content of all html files that i've wrote,
+# but doesn't corrupt the structure of the project.
+$ chmod 755 script.sh
+$ ./script.sh
 ```
+<br/>
 
-this script clears content of all html files that i wrote, but doesn't corrupt the structure of the project.
-
-then you can open book in front of you and for each chapter (for example chapter 1) do the following:
+then you can open the book in front of you and for each chapter (for example chapter 1) do the following:
 
 ```bash
-cd src/
-code code book-code/chapter-01/ me/chapter-01/
+$ cd src/
+
+# use vscode to open the workspace
+$ code book-code/chapter-01/ me/chapter-01/
 ```
 and start using this workspace.
 <br/>
